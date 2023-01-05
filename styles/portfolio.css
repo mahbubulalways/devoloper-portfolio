@@ -4,6 +4,7 @@
     
     
 }
+          /* headere */
 .header{
     background-color: #FFF8F3;
  background-image: url(../images/header_bg.png),url(../images/developer.png);
@@ -13,13 +14,13 @@
 
 }
    
-
+        /* navigation */
 
 nav{
     justify-content: space-between;
     display: flex;
    
-    margin: 10px 220px;
+    padding: 10px 220px;
    
 }
 .nav-title{
@@ -61,7 +62,7 @@ border-radius: 5px;
   transform: scale(1.1);
 transition: .5s;
 
-
+         /* bannar */
 }
 .bannar{
 display: flex;
@@ -96,7 +97,7 @@ border-radius: 5px;
 
 
 }
-
+       /* about me  */
 main{
     max-width: 1140px;
     margin: 100px 200px;
@@ -137,4 +138,101 @@ font-size: 15px;
 font-weight: 600;
 color: #474747;
 text-align: center;
+}
+          /* what i do */
+.section2{
+    margin-top: 80px;
+}
+.section-title2{
+   text-align: center;
+   
+}
+.pdescrip2{
+margin-top: 30px;
+margin-left: 200px;
+margin-right: 200px;
+margin-bottom: 0px ;
+color:  #757575;
+font-size: 15px;
+font-weight: 600;
+}
+.skills-containar{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.skills-name{
+
+    margin: 10px 0px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+height: 200;
+width: 220px;
+}
+.skill-des{
+   color:#757575;
+   font-weight: 800;
+}
+               /* resume  */
+
+.section-title2{
+    margin-top: 100px;
+}
+.resume-con{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+.resume-cv{
+background-color:#FD6E0A; 
+width: 130px;
+height: 40px;
+color: #FFF8F3;
+font-size: 14px;
+font-weight: 600;
+padding: 3px;
+border: 0;
+margin-top: 20px;
+border-radius: 5px;
+margin-left: 400px;
+margin-right: 500px;
+margin-top: 50px;
+}
+                    /* contract  */
+
+.contract{
+    margin-top: 70px;
+    background-color: #FFF8F3 ;
+    padding: 100px;
+
+}
+.contract-para{
+    margin: 15px 0px;
+}
+.sec{
+    display: flex;
+    gap: 20px;
+}
+input{
+    margin: 10px 0px;
+    height: 30px;
+    width: 200px;
+}
+.submit-button{
+    background-color:#FD6E0A; 
+    width: 80px;
+    height: 30px;
+    color: #FFF8F3;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 5px;
+   
+
 }
